@@ -1,0 +1,19 @@
+{
+  "Rules": [
+    {"rule" : 1,
+      "desc" : "If the employee has worked the last night shift, he can't work the next day morning shift.",
+      "flag": true},
+    {"rule" : 2,
+     "desc" : "If the employee is already working in the current shift, check next employee.",
+      "flag": true},
+    {"rule" : 3,
+     "desc" : "If the employee is already working another shift the same day, check next employee.",
+      "flag": true},
+    {"rule" : 4,
+     "desc" : "If the employee has maxed out his weekly working hours, check next employee.",
+      "flag": true},
+    {"rule": 5,
+      "desc" : "Checks if the shift has been full with employees, then it moves to the next shift",
+      "flag" : true}
+  ]}
+
